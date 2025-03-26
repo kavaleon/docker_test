@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Welcome to the Flask Project</h1>
+<a href="{{ url_for('main.register') }}">Register</a>
+<a href="{{ url_for('main.login') }}">Login</a>
+{% endblock %}
